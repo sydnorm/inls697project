@@ -40,8 +40,11 @@ a {
     box-shadow: 0 0 2px 2px #dfdfdf;
 }
 
+ul li a{
+    text-decoration: none;
+    color: black;
+}
 
-.card:hover{
-    transform: scale(1.01);
-    box-shadow: 0 0 5px 5px #dfdfdf;
+ul li a:hover{
+    color: grey;
 }
