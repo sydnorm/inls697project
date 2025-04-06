@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 a {
     text-decoration: none;
 }
-
 .centered {
     position: absolute;
     top: 35%;
@@ -17,7 +18,7 @@ a {
     height: 224px;
     background-size: cover;
     background-size: 100% 100%;
-    color: white;
+    color: #e8d7d9;
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -28,11 +29,12 @@ a {
     text-align: center;
     width: 100%;
     height: 224px;
-    background-color: rgba(103, 103, 103, 0.226);
+    background-color: rgba(106, 104, 104, 0.7);
     font-size: 32px;
-    font-weight: bold;
     text-shadow: 0 0 10px rgb(212, 212, 212);
     border-radius: 25px 25px 0px 0px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 100;
 }
 
 .card{
@@ -44,4 +46,85 @@ a {
 .card:hover{
     transform: scale(1.01);
     box-shadow: 0 0 5px 5px #dfdfdf;
+}
+
+.card-body {
+    background-color: #e7dedf;
+    color: #4E5166;
+    font-family: "Urbanist", sans-serif;
+}
+
+.navbar {
+    background-color: #4E5166 !important; 
+}
+
+.navbar a {
+    color: #e2ebe2 !important;
+    font-family: "Lilita One", sans-serif;
+}
+
+
+.navbar a:hover, a:focus {
+    text-shadow:  0 0 7px #999bab !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23e8d7d9' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} 
+
+
+.introbanner {
+    background-image: url('img/bannerbkg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(103, 103, 103, 0.226);
+    max-width: 100%;
+}
+
+.introbanner h1 {
+    color: #4E5166;
+    font-size: 32px;
+    text-shadow: 0 0 7px #999bab;
+    font-weight: 900;
+    font-family: "Lilita One", sans-serif;
+}
+
+.introbanner p {
+    color: #4E5166;
+    font-weight: 500;
+    font-family: "Urbanist", sans-serif;
+}
+
+.album {
+    background-color: #e2ebe2 !important; /* this is Bootstrap's bg-body-tertiary */
+}
+
+footer {
+    background-color: #4E5166 !important;
+}
+
+footer p {
+    color: #e2ebe2 !important;
+    font-family: "Lilita One", sans-serif;
+}
+
+footer a {
+    color: #e2ebe2 !important;
+    font-family: "Lilita One", sans-serif;
+}
+
+footer a:hover, a:focus {
+    text-shadow:  0 0 7px #999bab !important;
+}
+
+.logo-img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.logo-banner {
+    height: 10rem;
+    width: auto;
 }
