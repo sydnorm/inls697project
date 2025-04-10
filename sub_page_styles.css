@@ -8,6 +8,8 @@ a {
     left: 35%;
 }
 
+/* CSS for the header */
+
 .img-container {
     display: flex;
     justify-content: center;
@@ -35,10 +37,17 @@ a {
     border-radius: 25px 25px 0px 0px;
 }
 
+/* CSS for the table of contents */
+
 .card{
     border-radius: 25px;
     box-shadow: 0 0 2px 2px #dfdfdf;
 }
+
+.card-body ul{
+    text-align: left;
+}
+
 
 ul li a{
     text-decoration: none;
@@ -47,4 +56,26 @@ ul li a{
 
 ul li a:hover{
     color: grey;
+}
+
+/* CSS for Individual Cards */
+
+.entry-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.entry-btn{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-left: 20px;
+}
+
+.entry-btn:hover{
+    background-color: rgb(48, 79, 105);
+}
+
+.entry-btn a img{
+    width: 100%;
 }
