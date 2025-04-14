@@ -3,6 +3,7 @@
 a {
     text-decoration: none;
 }
+
 .centered {
     position: absolute;
     top: 35%;
@@ -50,6 +51,7 @@ a {
 
 .card-body {
     background-color: #e7dedf;
+    border-radius: 0px 0px 25px 25px;
     color: #4E5166;
     font-family: "Urbanist", sans-serif;
 }
@@ -127,4 +129,13 @@ footer a:hover, a:focus {
 .logo-banner {
     height: 10rem;
     width: auto;
+}
+
+.card-link{
+    text-decoration: none;
+    color: #4e5166;
+}
+
+.card-link :hover{
+    color: rgb(172, 172, 172);
 }
