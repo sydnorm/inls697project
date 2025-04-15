@@ -41,6 +41,11 @@ a {
 
 /* CSS for the table of contents */
 
+.table-of-content{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .card {
     border-radius: 25px;
     box-shadow: 0 0 2px 2px #dfdfdf;

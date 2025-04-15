@@ -2,7 +2,10 @@
 
 a {
     text-decoration: none;
+    color: #4E5166;
 }
+
+
 
 .centered {
     position: absolute;
@@ -131,11 +134,7 @@ footer a:hover, a:focus {
     width: auto;
 }
 
-.card-link{
-    text-decoration: none;
-    color: #4e5166;
-}
-
-.card-link :hover{
-    color: rgb(172, 172, 172);
+.card-links ul li a:hover {
+    border: rebeccapurple solid 1px;
+    color: red;
 }
