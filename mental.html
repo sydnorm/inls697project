@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taking Care in Chapel Hill</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="sub_page_styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header data-bs-theme="dark">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid justify-content-between">
+
             <a class="navbar-brand" href="index.html">
-                <img src="img/tar-heel-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Taking Care in Chapel Hill
+              <img src="img/logo2.png" alt="Logo" style="height: 50px; width: auto;" class="logo-img">
+              Taking Care in Chapel Hill
             </a>
             <div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,27 +40,18 @@
                   <li class="nav-item">
                     <a class="nav-link" href="support.html">Support</a>
                   </li>
-                  <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li> -->
                 </ul>
               </div>
             </div>
           </div>
         </nav>
       </header>
-      <section class="py-5 text-center container">
+<main>
+      <section class="py-5 text-center container introbanner">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Mental Wellness in Chapel Hill</h1>
-            <p class="lead text-body-secondary">Learn more about gyms, workout classes, and running trails around Chapel Hill! Click on the title to navigate to the page or click on the 
+            <p class="lead text-body-secondary">Learn more about libraries, parks, and mental health resources around Chapel Hill! Click on the title to navigate to the page or click on the subheaders to navigate straight there.
             </p>
           </div>
         </div>
@@ -68,22 +60,24 @@
       <div class="album py-5 bg-body-tertiary">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    
             <div class="col">
               <div class="card">
-                <a href="physical/trails.html">
-                    <div class="img-container" style="background-image: url('img/');">
-                        <div class="img-container-text">Running <br/> Trails</div>
+                <a href="mental/libraries.html">
+                    <div class="img-container" style="background-image: url('img/libraries_thumbnail.jpg');">
+                        <div class="img-container-text">Libraries</div>
                     </div>
                 </a>
                 <div class="card-body">
-                  <p class="card-text text-left">
+                  <p class="card-text text-center card-links">
                     <ul>
                         <li>
-                            <a href="/physical/trails.html#carolina-north-forest">Carolina North Forest</a>
+                          <a href="/mental/libraries.html#chapel-hill-public-library">Chapel Hill Public Library</a>
                         </li>
                         <li>
-                            <a href="">Morgan Creek Trail Trailhead</a>
+                            <a href="/mental/libraries.html#davis-library">Davis Library</a>
+                        </li>
+                        <li>
+                            <a href="/mental/libraries.html#wilson-library">Wilson Library</a>
                         </li>
                     </ul>
                   </p>
@@ -91,22 +85,27 @@
               </div>
             </a>
             </div>
-    
             <div class="col">
               <div class="card">
-                <a href="physical/gyms.html">
-                    <div class="img-container" style="background-image: url('img/');">
-                        <div class="img-container-text">Gyms</div>
+                <a href="mental/parks.html">
+                    <div class="img-container" style="background-image: url('img/parks-thumbnail.jpg');">
+                        <div class="img-container-text">Parks</div>
                     </div>
                 </a>
                 <div class="card-body">
                   <p class="card-text text-center">
                     <ul>
+                      <li>
+                        <a href="/mental/parks.html#cedar-falls-park">Cedar Falls Park</a>
+                      </li>
                         <li>
-                            <a href="">Morgan Creek Trail Trailhead</a>
+                            <a href="/mental/parks.html#chapel-hill-comm-center">Chapel Hill Community Center Park</a>
                         </li>
                         <li>
-                            <a href="">Morgan Creek Trail Trailhead</a>
+                            <a href="/mental/parks.html#hargraves-comm-park">Hargraves Community Park</a>
+                        </li>
+                        <li>
+                          <a href="/mental/parks.html#southern-comm-park">Southern Community Park</a>
                         </li>
                     </ul>                
                 </p>
@@ -114,22 +113,24 @@
               </div>
             </a>
             </div>
-    
             <div class="col">
               <div class="card">
-                <a href="physical/classes.html">
-                    <div class="img-container" style="background-image: url('img/');">
-                        <div class="img-container-text">Work out Classes</div>
+                <a href="mental/mental-health.html">
+                    <div class="img-container" style="background-image: url('img/mental-health-thumbnail.jpg');">
+                        <div class="img-container-text">Mental Health<br>Resources</div>
                      </div>
                 </a>
                 <div class="card-body">
                   <p class="card-text text-center">
                     <ul>
                         <li>
-                            <a href="">Morgan Creek Trail Trailhead</a>
+                            <a href="mental/mental-health.html#community-empowerment">Community Empowerment Fund (CEF)</a>
                         </li>
                         <li>
-                            <a href="">Morgan Creek Trail Trailhead</a>
+                            <a href="mental/mental-health.html#freedom-house">Freedom House Recovery Center</a>
+                        </li>
+                        <li>
+                          <a href="mental/mental-health.html#unc-asap">UNC Alcohol & Substance Abuse Program (ASAP)</a>
                         </li>
                     </ul>
                 </p>
@@ -137,5 +138,17 @@
               </div>
             </a>
             </div>
+          </main>
+            <footer class="text-body-secondary py-5">
+              <div class="container">
+                <p class="float-end mb-1">
+                  <a href="#">Back to top</a>
+                </p>
+                <p class="mb-1">Made with love in Chapel Hill</p>
+                <p class="mb-1">Spring 2025 INLS 697</p>
+              </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         </body>
     </html>
